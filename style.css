@@ -1,0 +1,122 @@
+.header h2 {
+    margin: 0;
+    font-size: 24px;
+    color: rgb(148, 137, 121);
+}
+.header .menu-icon {
+    font-size: 24px;
+    color: rgb(148, 137, 121);
+}
+.margin-editor {
+        margin: 20px;
+        }
+h1 {
+        font-size: 100px;
+        font-family: 'Irish Grover', cursive;
+        text-align: left;
+        margin-top: 400px;
+        color: rgb(148, 137, 121)
+}
+body {
+    background-color: rgb(223, 208, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px;
+    width: 100%;
+    max-width: 1200px;
+}
+.text-content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img-box img {
+    max-width: 500px;
+    height: auto;
+    margin-left: 700px;
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: left;
+}
+.press-btn {
+    margin-top: 20px;
+}
+.aboutme-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(148, 137, 121);
+    border: 2px solid #948979;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.talents-btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(148, 137, 121);
+    border: 2px solid #948979;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.projects-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(148, 137, 121);
+    border: 2px solid #948979;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.favorites-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(148, 137, 121);
+    border: 2px solid #948979;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.footer {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(223, 208, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+.footer a {
+    color: rgb(148, 137, 121);
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer a i {
+    font-size: 24px;
+}
