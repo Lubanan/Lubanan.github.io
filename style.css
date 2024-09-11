@@ -1,33 +1,74 @@
 .header h2 {
+    margin-left: 300px;
+    font-size: 35px;
     font-size: 45px;
     color: rgb(148, 137, 121);
     width: 100%;
+    padding: 20px;
+    text-align: left;
     padding: 10px;
     text-align: center;
     position: fixed;
     top: 0;
     left: 0;
+
     font-family: 'Irish Grover', cursive;
 }
 .margin-editor {
         margin: 20px;
         }
+h1 {
+        font-size: 100px;
+        font-family: 'Irish Grover', cursive;
+        text-align: left;
+        margin-top: 100px;
+        color: rgb(148, 137, 121)
+}
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+@@ -27,58 +20,55 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px;
+    width: 100%;
+    max-width: 1200px;
+}
+.text-content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .img-box img {
+    max-width: 500px;
     max-width: 250px;
     height: auto;
+    margin-left: 700px;
     border-radius: 50%;
     object-fit: cover;
+    text-align: right;
     margin-top: 20px;
     text-align: center;
 }
+
+.footer {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(223, 208, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 .aboutme-btn {
     padding: 5px 15px;
     font-size: 13px;
@@ -39,6 +80,7 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+.footer a {
 .talents-btn{
     padding: 5px 15px;
     font-size: 13px;
@@ -46,10 +88,17 @@ body {
     cursor: pointer;
     background-color: rgb(255, 255, 255);
     color: rgb(148, 137, 121);
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     border: 2px solid #948979;
     border-radius: 5px;
     text-align: center;
 }
+.footer a i {
+    font-size: 24px;
 .projects-btn {
     padding: 5px 15px;
     font-size: 13px;
@@ -61,6 +110,12 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+h2 {
+    font-size: 30px;
+    font-family: 'Irish Grover', cursive;
+    text-align: left;
+    margin-top: 100px;
+    color: rgb(148, 137, 121)
 .favorites-btn {
     padding: 5px 15px;
     font-size: 13px;
