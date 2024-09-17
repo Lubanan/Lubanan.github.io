@@ -136,6 +136,29 @@ section {
     color: #A6BECD;
 }
 
+#favorites .favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.favorite-item {
+    background-color: #2C313A;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.favorite-item h3 {
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.favorite-item p {
+    color: #A6BECD;
+}
+
 #project .project-grid {
     display: flex;
     justify-content: space-between;
@@ -166,8 +189,8 @@ section {
 }
 
 .github-icon i {
-    color: #333; 
-    font-size: 30px; 
+    color: #636363; 
+    font-size: 35px; 
 }
 
 .facebook-icon i {
@@ -177,11 +200,12 @@ section {
 
 .email-icon i {
     color: #D44638; 
-    font-size: 30px; 
+    font-size: 32px; 
 }
 
 .fa {
-    margin-right: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .github-icon, .facebook-icon, .email-icon {
