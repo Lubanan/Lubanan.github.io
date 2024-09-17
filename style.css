@@ -106,15 +106,24 @@ section {
     margin: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
-
+.About-item-2 {
+    background-color: #2C313A;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
 .About-item h3 {
     color: #FFFFFF;
     margin-bottom: 15px;
 }
 .blank-pic {
-    width: 100px; 
-    height: 100px; 
+    width: 200px; 
+    height: 275px; 
     background-color: #A6BECD; 
     border: 2px solid #2C313A;
     object-fit: cover;
@@ -127,25 +136,25 @@ section {
     color: #A6BECD;
 }
 
-#portfolio .portfolio-grid {
+#project .project-grid {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.portfolio-item {
+.project-item {
     width: 30%;
     background-color: #2C313A;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.portfolio-item img {
+.project-item img {
     max-width: 100%;
     height: auto;
 }
 
-.portfolio-item h3 {
+.project-item h3 {
     margin: 10px 0;
     color: #FFFFFF;
 }
@@ -154,4 +163,28 @@ section {
     max-width: 600px;
     margin: 20px auto;
     color: #A6BECD;
+}
+
+.github-icon i {
+    color: #333; 
+    font-size: 30px; 
+}
+
+.facebook-icon i {
+    color: #6987c9; 
+    font-size: 30px;
+}
+
+.email-icon i {
+    color: #D44638; 
+    font-size: 30px; 
+}
+
+.fa {
+    margin-right: 30px;
+}
+
+.github-icon, .facebook-icon, .email-icon {
+    text-decoration: none;
+    color: inherit;
 }
