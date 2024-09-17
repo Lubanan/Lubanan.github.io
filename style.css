@@ -1,129 +1,157 @@
-.header h2 {
-    margin-left: 300px;
-    font-size: 35px;
-    font-size: 45px;
-    color: rgb(148, 137, 121);
-    width: 100%;
-    padding: 20px;
-    text-align: left;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-
-    font-family: 'Irish Grover', cursive;
-}
-.margin-editor {
-        margin: 20px;
-        }
-h1 {
-        font-size: 100px;
-        font-family: 'Irish Grover', cursive;
-        text-align: left;
-        margin-top: 100px;
-        color: rgb(148, 137, 121)
-}
 body {
-    display: flex;
-    justify-content: center;
-@@ -27,58 +20,55 @@ body {
+    font-family: 'Georgia', serif;
+    background-color: #1B1E25; 
+    color: #A6BECD; 
     margin: 0;
-    font-family: Arial, sans-serif;
+    padding: 0;
+    line-height: 1.6;
 }
-.content-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 50px;
-    width: 100%;
-    max-width: 1200px;
+
+h1, h2, h3 {
+    color: #FFFFFF;
+    margin: 0;
+    font-weight: normal;
 }
-.text-content {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.img-box img {
-    max-width: 500px;
-    max-width: 250px;
-    height: auto;
-    margin-left: 700px;
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    text-align: right;
-    margin-top: 20px;
+    margin-bottom: 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.highlight {
+    color: #A6BECD; 
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
     text-align: center;
 }
 
-.footer {
-    width: 100%;
-    padding: 20px;
-    background-color: rgb(223, 208, 184);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-.aboutme-btn {
-    padding: 5px 15px;
-    font-size: 13px;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: rgb(255, 255, 255);
-    color: rgb(148, 137, 121);
-    border: 2px solid #948979;
-    border-radius: 5px;
-    text-align: center;
+header {
+    background-color: #2C313A;
+    padding: 20px 0;
 }
-.footer a {
-.talents-btn{
-    padding: 5px 15px;
-    font-size: 13px;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: rgb(255, 255, 255);
-    color: rgb(148, 137, 121);
+
+header h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
     text-decoration: none;
-    font-size: 16px;
+    color: #A6BECD;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    color: #FFFFFF;
+}
+
+section {
+    padding: 60px 0;
+    border-bottom: 1px solid #2C313A;
+}
+
+#above p {
+    max-width: 600px;
+    margin: 20px auto;
+    color: #A6BECD;
+}
+
+.btn {
+    background-color: #A6BECD;
+    color: #1B1E25;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #1B1E25;
+}
+
+#About .About-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+}
+
+.About-item {
+    background-color: #2C313A;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.About-item h3 {
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.blank-pic {
+    width: 100px; 
+    height: 100px; 
+    background-color: #A6BECD; 
+    border: 2px solid #2C313A;
+    object-fit: cover;
+    margin-top: 10px; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.About-item p {
+    color: #A6BECD;
+}
+
+#portfolio .portfolio-grid {
     display: flex;
-    align-items: center;
-    gap: 10px;
-    border: 2px solid #948979;
-    border-radius: 5px;
-    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.footer a i {
-    font-size: 24px;
-.projects-btn {
-    padding: 5px 15px;
-    font-size: 13px;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: rgb(255, 255, 255);
-    color: rgb(148, 137, 121);
-    border: 2px solid #948979;
-    border-radius: 5px;
-    text-align: center;
+
+.portfolio-item {
+    width: 30%;
+    background-color: #2C313A;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-h2 {
-    font-size: 30px;
-    font-family: 'Irish Grover', cursive;
-    text-align: left;
-    margin-top: 100px;
-    color: rgb(148, 137, 121)
-.favorites-btn {
-    padding: 5px 15px;
-    font-size: 13px;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: rgb(255, 255, 255);
-    color: rgb(148, 137, 121);
-    border: 2px solid #948979;
-    border-radius: 5px;
-    text-align: center;
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-item h3 {
+    margin: 10px 0;
+    color: #FFFFFF;
+}
+
+#contact p {
+    max-width: 600px;
+    margin: 20px auto;
+    color: #A6BECD;
 }
