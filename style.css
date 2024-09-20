@@ -28,7 +28,7 @@ html {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -132,6 +132,7 @@ section {
     margin-left: auto;
     margin-right: auto;
 }
+
 .About-item p {
     color: #A6BECD;
 }
@@ -145,7 +146,7 @@ section {
 .favorite-item {
     background-color: #2C313A;
     padding: 20px;
-    margin: 10px;
+    margin: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
@@ -160,16 +161,17 @@ section {
 }
 
 #project .project-grid {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Similar grid layout as favorites */
+    gap: 20px; /* Matching gap size */
 }
 
 .project-item {
-    width: 30%;
     background-color: #2C313A;
-    padding: 10px;
+    padding: 20px;
+    margin: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 .project-item img {
@@ -181,6 +183,7 @@ section {
     margin: 10px 0;
     color: #FFFFFF;
 }
+
 
 #contact p {
     max-width: 600px;
