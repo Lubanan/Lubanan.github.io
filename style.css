@@ -1,7 +1,7 @@
 body {
     font-family: 'Georgia', serif;
-    background-color: #1B1E25; 
-    color: #A6BECD; 
+    background-color: #1B1E25;
+    color: #A6BECD;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -20,11 +20,13 @@ h1, h2, h3 {
     object-fit: cover;
     margin-bottom: 20px;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 .highlight {
-    color: #A6BECD; 
+    color: #A6BECD;
 }
 
 .container {
@@ -96,8 +98,8 @@ section {
 
 #About .About-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 .About-item {
@@ -110,6 +112,7 @@ section {
     justify-content: center;
     gap: 20px;
 }
+
 .About-item-2 {
     background-color: #2C313A;
     padding: 20px;
@@ -117,18 +120,20 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
+
 .About-item h3 {
     color: #FFFFFF;
     margin-bottom: 15px;
 }
+
 .blank-pic {
-    width: 200px; 
-    height: 275px; 
-    background-color: #A6BECD; 
+    width: 200px;
+    height: 275px;
+    background-color: #A6BECD;
     border: 2px solid #2C313A;
     object-fit: cover;
-    margin-top: 10px; 
-    display: block; 
+    margin-top: 10px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -145,7 +150,7 @@ section {
 
 .favorite-item {
     background-color: #2C313A;
-    padding: 20px;
+    padding: 5px;
     margin: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
@@ -162,8 +167,8 @@ section {
 
 #project .project-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Similar grid layout as favorites */
-    gap: 20px; /* Matching gap size */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
 }
 
 .project-item {
@@ -172,17 +177,29 @@ section {
     margin: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
 }
 
 .project-item img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 350px; 
+    object-fit: cover;
+    border-radius: 0px;
 }
 
 .project-item h3 {
-    margin: 10px 0;
+    margin: 0px;
     color: #FFFFFF;
 }
+
+.project-item p {
+    color: #A6BECD;
+    margin-top: 5px;
+}
+
 
 #contact p {
     max-width: 600px;
@@ -191,18 +208,18 @@ section {
 }
 
 .github-icon i {
-    color: #636363; 
-    font-size: 35px; 
+    color: #636363;
+    font-size: 35px;
 }
 
 .facebook-icon i {
-    color: #6a89cc; 
+    color: #6a89cc;
     font-size: 30px;
 }
 
 .email-icon i {
-    color: #D44638; 
-    font-size: 32px; 
+    color: #D44638;
+    font-size: 32px;
 }
 
 .fa {
@@ -214,6 +231,7 @@ section {
     text-decoration: none;
     color: inherit;
 }
+
 .github-icon:hover i {
     color: #bbbbbb;
     transform: scale(1.3);
@@ -230,4 +248,31 @@ section {
     color: #ff6347;
     transform: scale(1.3);
     transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* update media query */
+
+@media all and (max-width: 768px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    #About .About-grid, #favorites .favorites-grid, #project .project-grid {
+        grid-template-columns: 1fr;
+    }
 }
