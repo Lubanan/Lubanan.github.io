@@ -158,7 +158,7 @@ section {
 
 .favorite-item h3 {
     color: #FFFFFF;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .favorite-item p {
@@ -250,8 +250,6 @@ section {
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
-/* update media query */
-
 @media all and (max-width: 768px) {
     header h1 {
         font-size: 30px;
@@ -275,4 +273,72 @@ section {
     #About .About-grid, #favorites .favorites-grid, #project .project-grid {
         grid-template-columns: 1fr;
     }
+}
+
+.dark-mode-toggle {
+    background: transparent;
+    border: none;
+    color: #A6BECD;
+    font-size: 35px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+body.dark-mode {
+    background-color: #d8d5cf;
+    color: #1B1E25;
+}
+
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 {
+    color: #1B1E25;
+}
+
+body.dark-mode .highlight {
+    color: #1B1E25;
+}
+
+body.dark-mode header {
+    background-color: #d8d5cf;
+}
+
+body.dark-mode .container {
+    color: #1B1E25;
+}
+
+body.dark-mode nav ul li a {
+    color: #1B1E25;
+}
+
+body.dark-mode nav ul li a:hover {
+    color: #FFFFFF;
+}
+
+body.dark-mode .btn {
+    background-color: #1B1E25;
+    color: #A6BECD;
+}
+
+body.dark-mode .btn:hover {
+    background-color: #2C313A;
+    color: #FFFFFF;
+}
+
+body.dark-mode .About-item,
+body.dark-mode .About-item-2,
+body.dark-mode .favorite-item,
+body.dark-mode .project-item {
+    background-color: #A6BECD;
+    color: #1B1E25;
+}
+
+body.dark-mode .github-icon i,
+body.dark-mode .facebook-icon i,
+body.dark-mode .email-icon i {
+    color: #1B1E25;
+}
+
+body, h1, h2, h3, .highlight, header, nav ul li a, .btn, .About-item, .favorite-item, .project-item {
+    transition: background-color 0.7s ease, color 0.7s ease;
 }
