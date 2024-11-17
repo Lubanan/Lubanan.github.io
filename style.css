@@ -1,6 +1,7 @@
+
 body {
     font-family: 'Georgia', serif;
-    background-color: #1B1E25;
+    background-color: #32394b;
     color: #A6BECD;
     margin: 0;
     padding: 0;
@@ -37,8 +38,18 @@ html {
     text-align: center;
 }
 
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
 header {
-    background-color: #2C313A;
+    background-color: #0E73AA;
     padding: 20px 0;
 }
 
@@ -300,7 +311,7 @@ body.dark-mode .highlight {
 }
 
 body.dark-mode header {
-    background-color: #d8d5cf;
+    background-color: #f1f1f1;
 }
 
 body.dark-mode .container {
