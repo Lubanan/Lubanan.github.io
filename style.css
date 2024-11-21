@@ -328,7 +328,6 @@ section {
     #About .About-grid, #favorites .favorites-grid, #project .project-grid {
         grid-template-columns: 1fr;
     }
-}
 
 .dark-mode-toggle {
     background: transparent;
