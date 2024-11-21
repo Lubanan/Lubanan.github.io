@@ -10,9 +10,6 @@
     
 </head>
 <body>
-        <video autoplay muted loop id="background-video">
-            <source src="backgroundvid.mp4" type="video/mp4">
-        </video>
     <header>
         <div class="container">
             <h1><span class="highlight">Student Portfolio</span></h1>
@@ -24,7 +21,7 @@
             <nav>
                 <ul>
                     <li><a href="#About">About</a></li>
-                    <li><a href="#favorites">Favorites</a></li>
+                    <li><a href="#favorites">Favorite</a></li>
                     <li><a href="#project">Projects</a></li>
                     <li><a href="#contact">Contacts</a></li>
                 </ul>
@@ -62,70 +59,57 @@
     </div>
 </section>
 <section id="favorites" class="container">
-    <h2>Favorites</h2>
-    <div class="favorites-grid">
-        <div class="favorite-item">
-            <h3>Favorite Food</h3>
-            <p>When it's raining and watching anime, I enjoy eating sweet and spicy foods especially <br>noodles.</p>
-            <div class="tenor-gif-embed" data-postid="14256993080180401840" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/food-korean-korea-koreanfood-bibimbap-gif-14256993080180401840">Food Korean Sticker</a>from <a href="https://tenor.com/search/food-stickers">Food Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-        </div>
-        <div class="favorite-item">
-            <h3>Favorite Music</h3>
-            <p>I like to listen to Rhythm and Blues, Indie Rock, and Rap music while doing homework and playing games.</p>
-            <iframe style="border-radius:10px" src="https://open.spotify.com/embed/track/2cZOYofOX4d6g0OXxkaIjA?utm_source=generator" width="100%" height="120" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            <iframe style="border-radius:10px" src="https://open.spotify.com/embed/track/7to68V64Cu6zk0UDo5tyw3?utm_source=generator&theme=0" width="100%" height="120" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            <iframe style="border-radius:10px" src="https://open.spotify.com/embed/track/6ieWL5CLN9WdC875guWtMe?utm_source=generator" width="100%" height="120" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            
-        </div>
-        <div class="favorite-item">
-            <h3>Favorite Anime</h3>
-            <p>I like to watch fantasy, action, magic, sports, and Isekai animated series, especially when <br>it's raining.</p>
-            <div class="tenor-gif-embed" data-postid="17386688786442927012" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/gojo-satoru-satoru-gojo-gojo-jujutsu-kaisen-manga-gif-17386688786442927012">Gojo Satoru Satoru Gojo GIF</a>from <a href="https://tenor.com/search/gojo+satoru-gifs">Gojo Satoru GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+    <h2>Favorite</h2>
+    <div class="favorite-item">
+        <h3></h3>
+        <p>I like listening to music while doing homework or playing games. Here's my playlist:</p>
+        <div class="spotify-container">
+            <iframe src="https://open.spotify.com/embed/playlist/5eBJMt7tJCiI8npJEZ56Ta?si=2027a1127da241f9" width="1500" height="580" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
     </div>
 </section>
+
 <section id="project" class="container">
     <h2>Projects</h2>
     <div class="project-grid">
-        <div class="project-item">
-            <h3>Portfolio Progress</h3>
-            <img src="portfolio-week1.png" alt="Portfolio Progress">
+        <div class="project-card">
+            <img src="portfolio-week1.png" alt="Portfolio Progress" class="project-image">
+            <div class="project-content">
+                <h3>Portfolio Progress</h3>
+                <p>A showcase of my weekly portfolio improvements.</p>
+                <a href="#" class="project-link" target="_blank">View Project</a>
+            </div>
         </div>
-        <div class="project-item">
-            <h3>Fashion Blog</h3>
-            <a target="_blank" href="https://Lubanan.github.io/fashion-blog">
-                <img src="fashion-blog.png" alt="Fashion Blog">
-            </a>
-        </div>
-        <div class="project-item">
-            <h3>Healthy Recipes</h3>
-            <a target="_blank" href="https://lubanan.github.io/healthyrecipes">
-                <img src="healthy-recipes.png" alt="Healthy Recipes">
-            </a>
-        </div>
-        <div class="project-item">
-            <h3>Woodruff</h3>
-            <a target="_blank" href="https://lubanan.github.io/Woodruff">
-                <img src="woodruff.png" alt="Woodruff">
-            </a>
-        </div>
-        <div class="project-item">
-            <h3>Empty</h3>
-            <a target="_blank" href="">
-                <img src="empty.png" alt="Woodruff">
-            </a>
-        </div>
-        
-        <div class="project-item">
-            <h3>Empty</h3>
-            <a target="_blank" href="">
-                <img src="empty.png" alt="Woodruff">
-            </a>
-        </div>
-        
 
+        <div class="project-card">
+            <img src="fashion-blog.png" alt="Fashion Blog" class="project-image">
+            <div class="project-content">
+                <h3>Fashion Blog</h3>
+                <p>An elegant blog showcasing modern fashion trends.</p>
+                <a href="https://Lubanan.github.io/fashion-blog" class="project-link" target="_blank">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="healthy-recipes.png" alt="Healthy Recipes" class="project-image">
+            <div class="project-content">
+                <h3>Healthy Recipes</h3>
+                <p>Discover delicious and nutritious recipes.</p>
+                <a href="https://lubanan.github.io/healthyrecipes" class="project-link" target="_blank">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="woodruff.png" alt="Woodruff" class="project-image">
+            <div class="project-content">
+                <h3>Woodruff</h3>
+                <p>A creative exploration of design and visuals.</p>
+                <a href="https://lubanan.github.io/Woodruff" class="project-link" target="_blank">View Project</a>
+            </div>
+        </div>
     </div>
 </section>
+
 
 
     <section id="contact" class="container">
